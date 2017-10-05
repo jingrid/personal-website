@@ -36,6 +36,19 @@ audio:not([controls]) {
 template {
   display: none;
 }
+#profile-pic {
+  width: 250px;
+  height: 250px;
+  size: 200%;
+}
+#profile {
+  height: 200px;
+  width: 200px;
+}
+#profile-figure {
+  width: 250px;
+  height: 200px;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -213,7 +226,7 @@ table {
     page-break-inside: avoid;
   }
   img {
-    max-width: 100% !important;
+    max-width: 200% !important;
   }
   @page  {
     margin: 2cm .5cm;
@@ -298,7 +311,7 @@ img {
 }
 .img-responsive {
   display: block;
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 }
 .img-rounded {
@@ -313,7 +326,7 @@ img {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 }
 .img-circle {
@@ -4419,7 +4432,7 @@ a.list-group-item.active > .badge,
 .thumbnail > img,
 .thumbnail a > img {
   display: block;
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -5309,7 +5322,7 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
   line-height: 1;
 }
