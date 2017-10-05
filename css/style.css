@@ -189,6 +189,7 @@ color: #fff;
 .main-nav li{
 	display:inline;
 	margin:0 1px;
+  padding: 0 20px;
 }
 .main-nav li a{
 	display:inline-block;
@@ -210,6 +211,11 @@ color: #fff;
 
 .small-logo{
 	padding:0 32px;
+}
+
+#profile-icon {
+  height: 40px;
+  width: 40px;
 }
 
 .main-section{
