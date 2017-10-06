@@ -189,7 +189,7 @@ color: #fff;
 .main-nav li{
 	display:inline;
 	margin:0 1px;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 .main-nav li a{
 	display:inline-block;
@@ -225,7 +225,14 @@ color: #fff;
 
 /* Services
 ---------------------------------*/
+#hello {
+  text-align: left;
+}
 
+#about-me {
+  text-align: left;
+  line-height: 20px;
+}
 .service-list{
 	padding:0 0 0 0;
 	font-size:14px;
