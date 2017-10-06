@@ -227,11 +227,33 @@ color: #fff;
 ---------------------------------*/
 #hello {
   text-align: left;
+  font-weight: lighter;
+  margin-left: 12px;
 }
 
 #about-me {
   text-align: left;
   line-height: 20px;
+}
+
+#technologies {
+  text-align: center;
+  font-weight: lighter;
+}
+
+#technologies-figure {
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.logos {
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .service-list{
 	padding:0 0 0 0;
