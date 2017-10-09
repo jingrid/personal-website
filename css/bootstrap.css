@@ -2908,19 +2908,25 @@ input[type="button"].btn-block {
   content: "\e200";
 }
 
-.fa-facebook-square:before {
+.fa-envelope-square:before {
   content: "\f082";
 }
 
-.fa-facebook:before {
+.fa-github:before {
   content: "\f09a";
 }
+.fa-github-square:before {
+  content: "\f082";
+}
 
+.fa-envelope:before {
+  content: "\f09a";
+}
 .fa-twitter:before {
   content: "\f099";
 }
 
-.fa-pinterest:before {
+.fa-linkedin:before {
   content: "\f0d2";
 }
 .fa-google-plus:before {
