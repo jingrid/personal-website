@@ -678,7 +678,7 @@ border: 2px solid #fff;
 	display:block;
 	overflow:hidden;
 }
-.social-link{
+.social-icons{
 	padding:2% 37.5%;
 	margin:0 0 0 68px;
 	display:block;
@@ -686,36 +686,37 @@ border: 2px solid #fff;
 	list-style:none;
 
 }
-.social-link li{
+.social-icons li{
 	float:left;
 	margin-right:8px;
 }
-.social-link li a{
+.social-icons img{
 	display:block;
 	width:50px;
 	height:50px;
 	text-align:center;
-	line-height:50px;
+	/*line-height:50px;*/
 	font-size:25px;
 	color:#fff;
-	background:#222222;
+	background: black;
 	border-radius:50%;
+  border: none;
 	transition:all 0.3s ease-in-out;
 }
-.social-link li a:hover, .social-link li a:focus{
+.social-icons li a:hover, .social-icons li a:focus{
 	text-decoration:none;
 }
-.twitter a:hover {
-	background: #55acee;
+.twitter a:hover img:hover{
+	opacity: 0.3;
 }
-.envelope a:hover {
-	background: #7cc576;
+.envelope a:hover img:hover{
+	opacity: 0.3;
 }
-.github a:hover {
-	background: #7cc576;
+.github a:hover img:hover{
+  opacity: 0.3;
 }
-.linkedin a:hover {
-	background: #7cc576;
+.linkedin a:hover img:hover{
+	opacity: 0.3;
 }
 .gplus a:hover {
 	background: #dd4b39;
