@@ -115,7 +115,7 @@ p{
 
 .we-create{
 	padding:0;
-	margin:35px 0 55px;
+	margin:35px 0 5px;
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -614,10 +614,10 @@ border: 2px solid #fff;
 .team-leader ul li a.fa-twitter:hover{
 	color:#55acee;
 }
-.team-leader ul li a.fa-facebook:hover{
+.team-leader ul li a.fa-github:hover{
 	color:#3b5998;
 }
-.team-leader ul li a.fa-pinterest:hover{
+.team-leader ul li a.fa-linkedin:hover{
 	color:#cb2026;
 }
 .team-leader ul li a.fa-google-plus:hover{
@@ -679,11 +679,12 @@ border: 2px solid #fff;
 	overflow:hidden;
 }
 .social-link{
-	padding:35px 0;
+	padding:2% 37.5%;
 	margin:0 0 0 68px;
 	display:block;
 	overflow:hidden;
 	list-style:none;
+
 }
 .social-link li{
 	float:left;
@@ -707,11 +708,14 @@ border: 2px solid #fff;
 .twitter a:hover {
 	background: #55acee;
 }
-.facebook a:hover {
-	background: #3b5998;
+.envelope a:hover {
+	background: #7cc576;
 }
-.pinterest a:hover {
-	background: #cb2026;
+.github a:hover {
+	background: #7cc576;
+}
+.linkedin a:hover {
+	background: #7cc576;
 }
 .gplus a:hover {
 	background: #dd4b39;

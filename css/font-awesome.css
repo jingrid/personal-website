@@ -563,7 +563,10 @@ i{
 .fa-twitter-square:before {
   content: "\f081";
 }
-.fa-facebook-square:before {
+.fa-envelope-square:before {
+  content: "\f082";
+}
+.fa-github-square:before {
   content: "\f082";
 }
 .fa-camera-retro:before {
@@ -633,7 +636,7 @@ i{
 .fa-twitter:before {
   content: "\f099";
 }
-.fa-facebook:before {
+.fa-envelope:before {
   content: "\f09a";
 }
 .fa-github:before {
@@ -760,10 +763,10 @@ i{
 .fa-truck:before {
   content: "\f0d1";
 }
-.fa-pinterest:before {
+.fa-linkedin:before {
   content: "\f0d2";
 }
-.fa-pinterest-square:before {
+.fa-linkedin-square:before {
   content: "\f0d3";
 }
 .fa-google-plus-square:before {
