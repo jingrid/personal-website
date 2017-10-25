@@ -26,7 +26,6 @@
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
 	.header h1{ font-size:46px;}
-	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
 	h2{ font-size:30px}
 	h6{ font-size:16px;}
@@ -44,6 +43,7 @@
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
 
+  .main-nav ul li a{ padding:14px;}
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:8px 15px;}
 
@@ -59,21 +59,25 @@
 	h6{ font-size:16px; margin-bottom:40px;}
 	p{ line-height:18px;}
 	.service-list{ font-size:12px; margin-bottom:20px;}
-  #technologies{text-align: left; padding-left: 2%}
+  #technologies{text-align: left; padding-left: 2%; padding-top: 2%;}
   #technologies-figure{ margin-left: 0; padding-left: 0; width: 100%}
   #technologies-figure .logos{ width:12%; height: 12%; margin: 0;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
 	.header{ padding:60px 0;}
 	.main-section{ padding:60px 0 70px;}
-	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+	/*.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
 	.main-nav li{ display:block;}
 	.main-nav li.small-logo{ display:none;}
 	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
-	.main-nav li a:hover{color:#7cc576}
+	.main-nav li a:hover{color:#7cc576}*/
+  .main-nav li{padding: 20px;}
+  .main-nav ul li a{ padding:14px;}
+	.main-nav{ display:block !important; }
+	.main-nav li a{ padding:8px 15px; margin: 12px 12px;}
 	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}
-	.res-nav_click{ display:block;}
+	/*.res-nav_click{ display:block;}*/
 	.featured-work{ font-size:12px; margin-top:30px;}
 	.featured-box{ font-size:12px;}
 	.featured-box p{ line-height:18px; }
@@ -102,7 +106,7 @@
 
 }
 @media only screen and (max-width: 588px) {
-  #technologies{text-align: left; padding-left: 3%}
+  #technologies{text-align: left; padding-left: 3%; padding-top: 2%;}
   #technologies-figure{ margin-left: 0; padding-left: 0; width: 100%}
   #technologies-figure .logos{ width:11%; height: 11%; padding: 1%}
   .text-right{text-align: center;}
@@ -113,6 +117,7 @@
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:40px;}
 	.social-link{ margin-left:0px;}
+  #technologies{padding-top: 2%;}
   #technologies-figure{ margin-left: 0; padding-left: 0; width: 100%}
   #technologies-figure .logos{ width:11%; height: 11%; }
 	.form{ margin:0}
@@ -121,4 +126,13 @@
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important }
 
+}
+@media only screen and (min-width: 300px) and (max-width: 467px) {
+  #profile-figure{margin-top: 10%; margin-bottom: 10%;}
+  .social-icons{padding: 3%; margin-bottom: 4%}
+  #technologies{padding-top: 2%;}
+  .main-nav li{padding: 1%; margin: 0;}
+  .main-nav ul li a{ padding:14px;}
+  .main-nav{ display:block !important; }
+  .main-nav li a{ padding:8px 10px; margin: 8px 8px;}
 }
