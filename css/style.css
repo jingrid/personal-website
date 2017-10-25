@@ -113,14 +113,14 @@ p{
 	color:#fff;
 }
 
-.we-create{
+.we-create, .social-icons{
 	padding:0;
 	margin:35px 0 5px;
 }
 .wp-pic{
 	margin-bottom:20px;
 }
-.we-create li{
+.we-create li, .social-icons li{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
@@ -242,9 +242,9 @@ color: #fff;
 }
 
 #technologies-figure {
-  width: 500px;
+  width: 45%;
   float: left;
-  margin-left: 100px;
+  margin-left: 10%;
   margin-top: -50px;
 }
 
@@ -678,7 +678,7 @@ border: 2px solid #fff;
 	display:block;
 	overflow:hidden;
 }
-.social-icons{
+/*.social-icons{
 	padding:2% 35%;
 	margin:0 0 0 68px;
 	display:block;
@@ -689,20 +689,26 @@ border: 2px solid #fff;
 .social-icons li{
 	float:left;
 	margin-right:8px;
+}*/
+
+.social-icons {
+  padding-bottom: 3%;
 }
+
 .social-icons img{
 	display:block;
 	width:50px;
 	height:50px;
 	text-align:center;
-	/*line-height:50px;*/
-	font-size:25px;
+	/*line-height:50px;
+	font-size:25px;*/
 	color:#fff;
 	background: black;
 	border-radius:50%;
   border: none;
 	transition:all 0.3s ease-in-out;
 }
+
 .social-icons li a:hover, .social-icons li a:focus{
 	text-decoration:none;
 }
